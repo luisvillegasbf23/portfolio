@@ -1,0 +1,89 @@
+.c-form-container {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 200px;
+  margin-top: 4rem;
+  /* display: grid; */
+  /* gap: 2rem; */
+}
+
+.c-form-input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid var(--color-white);
+  color: var(--color-white);
+}
+
+.c-form-input::placeholder {
+  color: var(--color-white);
+  opacity: 0.8;
+}
+
+.c-form-input:focus {
+  border: 0.1rem solid var(--color-green);
+}
+
+.c-form-textarea {
+  width: 100%;
+  height: 20rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid var(--color-white);
+  color: var(--color-white);
+}
+
+.c-form-textarea::placeholder {
+  color: var(--color-white);
+  opacity: 0.8;
+}
+
+.c-form-textarea:focus {
+  border: 0.1rem solid var(--color-green);
+}
+
+.c-bt-send-form {
+  float: right;
+  width: 7rem;
+  color: var(--color-white);
+  background-color: var(--color-green);
+  padding: 1.5rem 1.5rem;
+
+}
+
+.c-form-message {
+  float: left;
+  color: var(--color-white);
+  padding: 1.5rem 1.5rem;
+
+}
+
+.u-loader-form {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+@keyframes rotation {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+} 
+
+.u-success {
+  color: var(--color-green);
+}
+
+.u-error {
+  color: var(--color-red);
+}

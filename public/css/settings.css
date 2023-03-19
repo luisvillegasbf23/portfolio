@@ -1,0 +1,38 @@
+/* ******************************************** */
+/** SETTINGS: 
+/**     -VARIABLES
+/**     -GENERAL CLASSES OF THE PROJECT: 
+/**         EXAMPLE: BUTTONS USED IN VARIOUS PLACES
+/* ******************************************** */
+:root {
+	--font: 'Ubuntu', sans-serif;;
+	/* font sizes */
+	--font-size-base: 1.6rem;
+	--font-size-subtitle: 3.6rem;
+	--font-size-title: 5.6rem;
+
+	/* colors */
+	--color-black: #303030;
+	--color-black-bg: #010101;
+	--color-white: #ffffff;
+	--color-green: #0ECD58;
+	--color-red: red;
+
+	--color-opaque-layer: rgba(0, 0, 0, 0.5);
+
+	/* sizes */
+}
+
+.u-hide {
+	opacity: 0 !important;
+}
+
+.u-display-none {
+	display: none !important;
+}
+
+.u-subtitle {
+	color: var(--color-green);
+	font-size: 2rem;
+	font-weight: bold;
+}

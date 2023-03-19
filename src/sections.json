@@ -1,0 +1,35 @@
+{
+  "about-me": {
+    "title": "About me",
+    "message": "I am a curious and entrepreneurial person who loves computers, food, music and football. I am constantly learning and often love to take on new challenges.",
+    "tips": [
+     { "age": "?!"},
+     { "born in": "venezuela"},
+     { "fav food": "pizza"},
+     { "living": "world"},
+     { "lenguages": "english / spanish"},
+     { "play as": "waterboy"}
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "message": "Here are a few technologies I’ve been working with recently:",
+    "tips": [
+     { "figma": "👌🏽"},
+     { "javascript": "🖖🏽"},
+     { "python": "🤝🏽"},
+     { "react js": "✌🏽"},
+     { "docker": "✊🏽"},
+     { "aws": "🤙🏽"}
+    ]
+  },
+  "contact": {
+    "title": "Get in touch",
+    "message": "Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!",
+    "form": [
+     { "name": "name", "placeholder": "Full name", "label": "Full name", "type": "text"},
+     { "name": "email", "placeholder": "Email", "label": "Email","type": "email"},
+     { "name": "message", "placeholder": "Message", "label": "Message", "type": "textarea"}
+    ]
+  }
+}

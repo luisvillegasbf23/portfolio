@@ -1,0 +1,8 @@
+.c-section-intro-container {
+  width: 100%;
+  /* background-color: red; */
+  display: grid;
+  gap: 1.5rem;
+  text-align: justify;
+
+}
